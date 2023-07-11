@@ -1,0 +1,118 @@
+body{
+    background-color: wheat;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.picture{
+    width: 50px;
+}
+#picture2{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 30px;
+ 
+    
+
+}
+.gif{
+    width: 60px;
+    height: 25px;
+margin-left: 5px;
+}
+nav{
+    background-color: black;
+
+}
+ul {
+    color: white;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-weight: bolder;
+
+    
+}
+li{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+h1{
+margin-left: 15px;
+}
+.container{
+    background-color: black;
+    background-image: url(./pexels-ray-bilcliff-12845594.jpg);
+    background-size: 100% 100%;
+    margin: 2px 75px 0px 75px;
+    height: 75vh;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+    color: white;
+}
+.songitem{
+    background-color: white;
+    color: black;
+    margin: 12px 8px 0px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border-radius:34px ;
+
+    
+    
+}
+.bottom{
+    position: sticky;
+    margin: 0px 75px 0px 75px;
+    background-color:black ;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius:25px ;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+#r{
+ 
+    width: 100%;
+    
+}
+
+
+
+#soundpicture{
+width: 50px;
+align-items: start;
+justify-content: space-between;
+
+}
+.icon{
+    margin: 20px;
+    position: relative;
+}
+.gif{
+    
+    position: absolute;
+    left: 0;
+    display: flex;
+    position: absolute;
+ align-items: baseline;
+
+}
+#g{
+    opacity: 0;
+    transition:  0.8s ease-in;
+    width: 50px;
+    height: 25px;
+}
