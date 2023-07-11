@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    background-image: url(./pexels-ono-kosuki-5973962.jpg);
+    background-size: 100% ,100%;
+opacity: .9;
+    height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.two{
+text-align: center;
+
+}
+button{
+    width: 100px;
+height: 40px;
+border-radius: 15px;
+
+}
+textarea{
+    border-radius: 15px;
+    background-color:rgba(82,136,217,.1);
+    border: 20px solid #34495e;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   color: white;
+   
+
+
+}
+h2{
+    color: white;
+}
